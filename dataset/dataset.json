@@ -1,0 +1,339 @@
+{
+    "intents": [
+        {
+            "tag": "salam",
+            "patterns": [
+                "hallo",
+                "hai",
+                "halo",
+                "hei",
+                "hi",
+                "hy",
+                "pagi",
+                "morning",
+                "siang",
+                "afternoon",
+                "sore",
+                "malam",
+                "bro",
+                "sis",
+                "kawan"
+            ],
+            "responses": [
+                "Hai! InsightfullBot di sini. Mau tau informasi tentang apa nih?",
+                "Halo! Saya InsightfullBot, salam kenal ya! Mau tau tentang fashion muslim, kan?",
+                "Helo! Ini InsightfullBot. Lagi kepo tentang fashion muslim ya?",
+                "Helo! Ini InsightfullBot. coba ceritain kamu lagi butuh informasi apa?"
+            ]
+        },
+        {
+            "tag": "bye",
+            "patterns": [
+                "Dah",
+                "Dadah",
+                "Bye",
+                "Byee",
+                "Good bye",
+                "Selamat tinggal",
+                "Sampai jumpa",
+                "Bai",
+                "See you"
+            ],
+            "responses": [
+                "Sampai jumpa lagi ya!",
+                "See u! Senang bisa membantu",
+                "See u! Senang semoga bermanfaat",
+                "tanya lagi ya kalo butuh informasi, see u"
+            ]
+        },
+       {
+            "tag": "modis",
+            "patterns": [
+                "bagaimana cara berpakaian muslim yang modis?",
+                "ingin tampil modis berhijab bagi para muslimah?",
+                "bagaimana cara agar busana muslim lebih stylish?",
+                "adakah cara bergaya busana muslim agar tidak itu-itu saja?",
+                "sebutkan rahasia memadukan outfit agar stylish?"
+                
+            ],
+            "responses": [
+                "hijabers pun tak kalah jika sekedar outfit style baik untuk kegiatan sehari-hari atau bagi mereka para wanita karir, caranya adalah yang pertama menggunakan pashmina motif, yang kedua menggunakan jilbab segi empat embos,yang ketiga menggunakan pashmina instan yang praktis",
+                "berikut tampil modis berhijab bagi para muslimah: Point 1 Pahami Cara berpakaian yang baik menurut islam. Point 2 Koleksi kulot dan rok A line, memakai outfit palazzo juga pilihan yang terbaik buat cewek aktif. Point 3 Pilih opsi warna monokrom, warna pakaian dan hijab berkiblat monokrom menjadi opsi paling ekonomis agar tkita tidak sering beli baju, selain  berhijab dengan pilihan monokrom juga bisa membuat badan kamu terlihat lebih jenjang dan proposional. Point 4 Gunakan outer dan blazer yang multifungsi, karena saat kamu merasa bajunya cuma itu-itu saja, maka kamu bisa menggunakan kaus-kaus santai lengan pendek dengan luaran blazer"
+            ]
+        },
+        {
+            "tag": "warna_hijab",
+            "patterns": [
+                "Bagaimana tips memilih warna hijab sesuai undertone yang kita miliki?",
+                "Apa saja rekomendasi warna hijab yang cocok dengan warna kulit kita?",
+                "Tips memilih warna hijab?"
+            ],
+            "responses": [
+               "Untuk tipsnya memilih warna hijab sesuai undertone yang kamu miliki, pertama kamu harus tahu dulu undertone yang cocok untuk kamu, sehingga tahu warna apa yang bisa mencerahkan warna kulitmu. Jika sudah mengetahui undertone milikmu, 1) maka patokan umumnya, warna jilbab untuk warm undertone yaitu warna salmon, terracotta, olive, dan biru 2) warna jilbab untuk cool undertone yaitu warna biru muda, abu-abu, toska",
+               "Rekomendasi warna hijab yang cocok dengan warna kulit kamu, 1) Kulit Putih: Putih, hitam, nude, abu-abu tua, silver, pastel pink, fuchsia, baby blue, turquoise, lavender, canary yellow, dan jewel tones (biru cobalt, hijau zamrud, merah ruby, ungu amethyst. 2) Kulit Kuning Langsat:  Warna yang berseberangan dengan kuning pada color wheel, yaitu merah, ungu, pink, dan biru yang bold. 3) Kulit Sawo Matang: Hitam, abu-abu, kuning gading, kuning keemasan, warna kecokelatan (taupe, camel, beige), hijau olive, hijau zamrud, biru teal, biru turquoise, merah, merah anggur, fuchsia, medium pink (blush), pink terang, coral, oranye, amber (kuning-oranye), salem. 4) Kulit Gelap: Hitam, abu-abu tua, kuning gading, kuning marigold, kuning keemasan, cokelat gelap, biru dongker, hijau pastel, hijau botol, merah anggur, magenta, ungu, mauve (ungu pucat), medium pink (blush), pink pastel, pink terang, amber (kuning-oranye)",
+               "Ada tiga tips memilih warna hijab, diantaranya 1) Cek pantone color of the year, biasanya nih, trend untuk warna fashion mengikuti warna pilihan Pantone untuk Color of the Year. Kalau tahun-tahun sebelumnya adalah warna abu-abu dan kuning serta Very Peri. Tahun ini adalah warna Viva Magenta, paduan warna ungu kemerahan. 2) Sesuaikan dengan undertone kulit, kamu juga bisa memilih warna-warna kerudung sesuai undertone kulit. 3) Padukan dengan busana bercorak, Agar tetap terlihat stunning, padukan warna-warna kerudung polos seperti jilbab nude atau jilbab warna frapuccino dengan busana bercorak, misalnya, outfit dengan motif tropical yang ramai."
+            ]
+        },
+        {
+            "tag": "baju_warna_lilac",
+            "patterns": [        
+                "Apa saja warna hijab yang cocok untuk baju warna lilac?"
+            ],
+            "responses": [    
+               "Agar tampilanmu tetap manis ketika mengenakan baju warna lilac, ada beberapa warna jilbab yang cocok, diantaranya 1) warna lilac, Nggak ada salahnya memadukan clean hijab segi empat warna lilac dengan baju yang warnanya senada juga. 2) Warna mauve, yaitu  Warna ungu pucat ini masih satu tone dengan lilac dan lavender. Jadi, kalau ditanya warna mauve cocok dengan warna apa, tentu saja jawabannya semua turunan warna ungu dan pink, termasuk lilac. 3) Warna ungu tua/lavender, Warna ungu lilac yang cenderung lebih soft cocok banget dipadukan dengan warna kerudung yang sedikit lebih tua. Hasilnya adalah gradasi warna yang cantik. 4) Warna abu-abu muda, warna ini justru bisa jadi warna kerudung yang cocok untuk baju warna lilac, tampilanmu akan terlihat manis, warna lilac pun jadi kelihatan lebih menonjol. 5) Warna coklat susu, warna jilbab ini bisa menciptakan tampilan yang manis dan juga chic. 6) Warna putih, warna netral yang satu ini terbilang paling aman dipadukan dengan warna apa saja, termasuk lilac, dan masih banyak warna-warna kerudung yang cocok untuk warna lilac"
+            ]
+        },
+        {
+            "tag": "baju_warna_hijau",
+            "patterns": [        
+                "Apa saja warna jilbab yang cocok untuk baju hijau?"
+            ],
+            "responses": [    
+               "Rekomendasi warna jilbab yang cocok untuk baju warna hijau, 1) Warna Hijau Sage, saat kamu sedang memakai baju warna hijau sage atau mint, maka warna kerudung yang cocok untuk baju hijau mint atau sage adalah warna hijau yang senada. 2) Warna Putih, warna ini cocok banget untuk kamu yang suka tampilan minimalis. Pilih pashmina warna putih yang ditata layering sederhana, pas banget sebagai warna kerudung yang cocok untuk baju hijau mint. 3) Warna Hitam, Kamu bisa mengenakan pashmina polos warna hitam saat sedang pakai kemeja atau atasan apapun yang berwarna hijau terang. Penampilanmu jadi terlihat lebih stunning! 4) Warna Abu-Abu, jangan khawatir. Ketika digabungkan dengan hijau, abu-abu justru bikin warnanya lebih on point! Dan masih banyak lagi perpaduan warna hijab yang cocok untuk baju warna hijau"
+            ]
+        },
+        {
+            "tag": "baju_warna_biru_dongker",
+            "patterns": [
+                "Apa saja warna jilbab yang cocok untuk baju biru dongker?"  
+            ],
+            "responses": [
+               "Rekomendasi warna jilbab yang cocok untuk baju biru dongker, 1) Warna Putih, Kalau suka dengan tampilan yang minimalis tapi chic, gabungkan outfit warna biru dongker dengan jilbab warna putih. 2) Warna Hitam, kamu bisa bermain dengan detail outfit agar tampilanmu tidak membosankan. 3) Warna Biru Muda, kamu bisa mengenakan hijab segi empat atau pashmina warna biru muda dengan dress warna biru navy. 4) Warna Abu-Abu, padukan baju biru dongker dengan kerudung warna abu-abu yang punya tone mendekati warna kebiruan. 5) Warna Cokelat Susu, warna kontras ini tetap bisa menghasilkan gaya hijab yang menarik dan stylish. 6) Hijab Motif, Karena warna biru dongker cukup mudah di-mix dengan warna-warna netral, jadi sebaiknya kamu memilih hijab motif yang berwarna dasar cokelat, denim atau kebiruan. Memadukan baju biru dongker dengan hijab motif seperti ini juga bikin tampilanmu terlihat lebih anggun. Dan masih banyak lagi warna yang cocok dipadukan dengan baju biru dongker"              
+            ]
+        },
+        {
+            "tag": "baju_warna_maroon",
+            "patterns": [
+                "Apa saja warna jilbab yang cocok untuk baju warna maroon?"  
+            ],
+            "responses": [
+               "Rekomendasi warna jilbab yang cocok untuk baju warna maroon, 1) Warna Cokelat Susu, Perpaduan warna ini menciptakan efek kontras yang masih terlihat aman. 2) Warna Hitam, warna bold ini justru bikin tampilanmu terlihat semakin elegan. Coba saja padukan dress warna merah maroon dengan hijab pashmina polos warna hitam. 3) Warna Merah Maroon, Agar tak berkesan terlalu monoton, berikan sedikit sentuhan gradasi warna. Misalnya, pilih hijab warna merah maroon yang lebih gelap dibanding baju yang kamu pakai. 4) Warna Ungu Plum, Hampir semua warna ungu dan turunannya bisa jadi pilihan jilbab yang cocok untuk baju warna maroon. 5) Warna Dusty Pink, jika kamu mengenakan baju warna merah maroon yang gelap, sebaiknya pilih warna jilbab yang warnanya lebih cerah."    
+            ]
+        },
+        {
+            "tag": "baju_warna_kuning",
+            "patterns": [
+                "Baju kuning cocok dengan jilbab warna apa?"  
+            ],
+            "responses": [
+               "Rekomendasi kami baju kuning cocok dengan, 1) Hijab Warna Cream/Krem, hijab warna krem cocok untuk jadi perpaduan warna kuning warna corn atau mustard, nuansa cerah ini juga memberi kesan kasual dan santai. 2) Hijab Warna Beige, warna ini cocok dipadukan dengan tone kuning apa saja, mulai dari mustard, gold, hingga warna kuning cerah. 3) Hijab Warna Cokelat, warna cream sangat berjodoh saat dipadukan dengan turunan warna-warna cokelat, seperti jilbab nude, cokelat susu atau mocca. 4) Hijab Warna Hitam, Hijab warna hitam juga bisa membuat warna kuning bajumu jadi pop up. 5) Hijab Warna Abu, paduan warna ini akan memerlihatkan look yang lebih playful, tapi tetap tidak berlebihan. 6) Hijab Bermotif, kamu juga bisa tampil lebih aktraktif dengan paduan baju kuning dan hijab motif. Triknya tidak sulit, kamu hanya perlu memilih warna hijab dengan kombinasi warna yang cocok dengan kuning di atas, yakni krem, cokelat, beige, hitam, atau putih sebagai warna netral."
+            ]
+        },
+        {
+            "tag": "gamis_putih",
+            "patterns": [
+                "Gamis putih cocok untuk jilbab warna apa?"  
+            ],
+            "responses": [
+               "kami merekomendasikan gamis putih cocok dengan, 1) Jilbab warna nude, jilbab warna netral seperti cokelat nude bisa memberi kesan clean dan kekinian saat dipadukan dengan gamis putih. 2) Jilbab Warna Cokelat Mocha, padukan hijab pashmina warna cokelat mocha dengan gamis putih berdetail lengan ruffles agar penampilanmu tidak membosankan. 3) Jilbab Hitam, Perpaduan warna hitam dan putih memang tak pernah salah. Namun, kamu harus hati-hati, karena kadang gaya monokrom ini bisa bikin kamu terlihat flat! 4) Jilbab Tosca, gamis putih berbahan katun yang dipadukan dengan pashmina warna tosca yang ditata simple tanpa peniti, nggak akan gagal membuatmu tampil stand out. 5) Jilbab Hijau Olive, Perpaduan warna ini bisa menciptakan kesan tampilan yang segar dan chic untuk momen istimewa seperti Lebaran atau Halal Bihalal ketemu camer. 6) Jilbab Motif, hijab motif floral simple dengan perpaduan warna beige dan pastel. Cocok buat acara halal bihalal keluarga, nih!"
+            ]
+        },
+        {
+            "tag": "tutorial_hijab",
+            "patterns": [
+                "Bagaimana tutorial hijab pashmina crinkle anti ribet?"
+                
+            ],
+            "responses": [
+               "Berikut tutorial hijab pashmina crincle anti ribet: 1) Lipat pashmina crinkle agar tidak terlalu menerawang. 2) Letakkan di atas kepala dengan salah satu sisi lebih panjang. 3) Lipat rapi pashmina di dekat pipi dan rekatkan dengan peniti.4) Bawa sisi pashmina yang lebih panjang ke belakang leher hingga menjuntai ke depan. 5) Rapikan pashmina di bagian belakang leher dan depan dada."
+            ]
+        },
+        {
+            "tag": "bahan_hijab",
+            "patterns": [
+                "Apakah bahan hijab paling dicari para hijabers?"
+                
+            ],
+            "responses": [
+               "Bahan hijab paling nyaman pilihan hijabers diantaranya 1) Bahan Katun 2) Bahan Spandex 3) Bahan Sifon 4) Bahan Voal 5) Bahan Corn Skin 6) Bahan Satin 7) Ceruti"     
+            ]
+        },
+        {
+            "tag": "jilbab_acara_formal",
+            "patterns": [
+                "Apa saja jilbab yang cocok untuk acara formal?"
+            ],
+            "responses": [
+               "Berikut beberapa rekomendasi jilbab untuk acara formal, 1) Ceruti, jilbab berbahan ceruti sangat cocok untuk dikenakan dalam berbagai acara formal. Sifatnya yang cendering licin, membuat ceruti harus ditopang dengan jarum pentul, sehingga lebih nyaman digunakan. 2) Instan Scuba, untuk Anda yang anti ribet, bisa menggunakan jenis jilbab ini untuk menemani acara formal Anda. Memiliki bahan yang tebal, sehingga membuat tampilan Anda lebih tegas. 3) Jilbab Berbahan Satin, bahan ini banyak digunakan untuk berbagai model, seperti pashmina, kerudung segi empat, dan sebagainya. Sifatnya yang licin, tidak cocok untuk Anda kenakan dalam aktivitas sehari-hari. 4) Maxmara, maxmara memiliki tekstur yang lebih lembut, tidak heran banyak digunakan untuk acara formal. Banyak digunakan untuk pembuatan hijab bermotif, sehingga tampak lebih berkilau. 5) Organza, bahain ini memiliki tekstur yang tebal dan berkilau, cocok untuk dikenakan dalam acara formal. Selain itu, banyak digunakan pula untuk hijab yang dikenakan para pengantin. 6) Silk, bahan ini cocok untuk hijab bertipe formal. Ketika Anda menggunakan jilbab berbahan silk akan membuat tampilan lebih terkesan mewah dan elegan. 7) Voile Dobby, bahannya yang tebal,  membuat tampilan Anda terlihat lebih tegas. Sangat cocok untuk Anda kenakan dalam berbagai acara formal."                
+            ]
+        },
+        {
+            "tag": "tips_merawat_hijab",
+            "patterns": [
+                "Bagaimana tips merawat hijab supaya lebih tahan lama?"
+            ],
+            "responses": [
+               "Berikut tips merawat hijab supaya lebih tahan lama 1) Jangan Cuci Hijab Pakai Mesin Cuci, Sebaiknya saat mencuci jilbab dengan tangan, kamu tidak perlu menguceknya terlalu kuat agar tidak merusak teksturnya. 2) Pilih Air Dingin Untuk Mencuci, bahan jilbab yang lembut sebaiknya dicuci menggunakan air dingin saja, sebab jika menggunakan air hangat dihasilkan akan merusak serat kain pada jilbab. 3) Cuci Hijab Berdasarkan Warna, agar terhindar dari kelenturan saat mencuci jilbab, jangan satukan hijab kamu dengan pakaian. kamu bisa merendam dan mencuci  jilbab secara khusus. Sebaiknya cuci jilbab berdasarkan kelompok warnanya. 4) Perhatikan Saat Merendam Hijab, kamu harus lebih memilih deterjen cair karena deterjen bubuk bisa meninggalkan residu pada jilbab setelah kering. Terutama untuk jilbab berwarna hitam atau warna-warna gelap lainnya, deterjen bubuk untuk perendaman jilbab sebaiknya dihindari. 5) Jangan Pakai Pemutih, jangan sekali-kali gunakan pemutih jika ingin menghilangkan noda pada jilbab. Pemutih tentu saja memiliki kandungan bahan yang keras sehingga bisa membuat jilbab rusak. 6) Perhatikan Proses Penjemuran Hijab, tidak boleh menjemur pakaian khususnya jilbab di bawah sinar matahari langsung, meski itu merupakan solusi agar jilbab cepat kering. Hijab yang dijemur di bawah teriknya matahari membuat warnanya cepat pudar apalagi dengan hijab yang teksturnya tebal. 7) Perhatikan Proses Menyetrika Jilbab, saat menyetrika bahan jilbab terutama untuk yang materialnya tipis kamu tidak boleh menggunakan suhu terlalu tinggi. Suhu panas pada setrikaan bisa menyebabkan kerudung kamu jadi robek saat itu juga. 8) Kurangi Penggunaan Jarum Pentul/Peniti. 9) Perhatikan Saat Menyimpan Hijab, Kamu juga harus hati-hati ketika menyimpan kerudung apalagi jika tidak ingin dipakai dalam waktu dekat. Ada beberapa pilihan cara menyimpan jilbab, yaitu dengan dilipat digulung ataupun digantung. 10) Jangan Gunakan Kamper"    
+            ]
+        },
+        {
+            "tag": "jilbab_masa_kini",
+            "patterns": [
+                "Apa saja jenis-jenis model jilbab di masa kini?"   
+            ],
+            "responses": [
+               "Di antara jenis model jilbab  yang populer di pasaran, 1) Jilbab Instan, Sifatnya yang mudah dipakai, membuat model jilbab instan banyak dikenakan dalam berbagai aktifitas sehari-hari. Tersedia untuk berbagai kalangan, mulai dari versi anak-anak hingga dewasa. 2) Jilbab Jumbo, umumnya memiliki panjang hingga perut, dan dikenal juga dengan istilah jilbab syar’i. Jenis jilbab yang satu ini biasanya dibuat dari bahan adem, seperti jersey, della, dan spandex sutra. 3) Jilbab Lengan, Model kerudung yang satu ini secara praktis bisa menutup aurat secara langsung. Sama halnya dengan jilbab jumbo, jenis jilbab lengan juga dibuat dengan bahan-bahan yang bersifat adem. 4) Model Bergo, Sifatnya yang praktis sangat cocok untuk menemani hari santai Anda. Kini, model bergo banyak dimodifikasi dengan sentuhan yang penuh kreatif, seperti penambahan tali, pita, bordiran dan sebagainya. 5) Pashmina, Jenis pashmina yang bisa Anda temukan di toko online kerudung sangat beragam bisa polos atau pun bermotif. Cara menggunakannya pun tidaklah mudah, tidak heran bermunculan tutorial sebagai petunjuk untuk menggunakannya secara tepat. 6) Pashmina Instan (Pastan), Jenis pastan ini disajikan khusus bagi para penggunanya untuk langsung dikenakan bak jilbab instan. Hal ini membuat Anda lebih mudah ketika menggunakannya. 7) Segiempat, Jenis yang satu ini bisa dikenakan dalam acara semi formal atau pun formal sekali pun. Selain itu, tersedia dalam berbagai motif atau pun yang polos. Anda bisa menyesuaikannya dengan kebutuhan."     
+            ]
+        },
+        {
+            "tag": "rekomendasi_toko",
+            "patterns": [
+                "adakah rekomendasi toko online untuk fashion muslim?"      
+            ],
+            "responses": [
+               "berikut rekomendasi toko online untuk fashion muslim diantaranya, 1. https://hijab.id/ 2. https://hijabchic.co.id/ 3. https://www.aleza.co.id/"          
+            ]
+        },
+        {
+            "tag": "produk_new_arival",
+            "patterns": [
+                "Apa saja produk new arival yang ada di toko HijabId?",
+                "Apa saja rekomendasi produk new arival?",
+                "Rekomendasi produk new arival lainnya?",
+                "Rekomendasi produk new arival lain?"  
+            ],
+            "responses": [
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Produk Canola Fuchsia, harga Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/ba17a73fcc67f0a9.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/canola-fuchsia-774-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Produk Gravel Lavender, harga Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/e89257abc81d4522.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/gravel-lavender-860-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Polka Choco, harga Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/9628d6514cc234bb.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/polka-choco-869-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Gravel Cream, harga Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/de46fc065206af49.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/gravel-cream-865-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Gravel Pink, harga Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/99ee2b23751c5fbe.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/gravel-pink-864-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Gravel Mint, harga Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/92f909ec201b8e05.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/gravel-mint-862-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Gravel Peach, harga Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/0b0a4c4c6caf4e11.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/gravel-peach-861-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Canola Green, harga Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/b06ce3583bd58212.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/canola-green-776-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Japan Olive, harga Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/4846737f826c768b.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/japan-olive-796-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Polka Candy Mint, harga Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/a5bb0628506423fa.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/polka-candy-mint-870-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Zyva Top Tosca, harga Rp. 288.990, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/e9dd889c376fbcb7.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/zyva-top-tosca-734-1.php",
+               "Berikut produk new arival yang kami rekomendasikan yaitu dari toko HijabId, Polka Candy Sage, harga Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/9df7dd21c75ff29f.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/polka-candy-sage-872-1.php"  
+            ] 
+        },
+        {
+            "tag": "produk_best_seller",
+            "patterns": [
+                "Apa saja produk best seller yang ada di toko HijabId?",
+                "Apa saja rekomendasi produk best seller?",
+                "Rekomendasi produk best seller lainnya?",
+                "Rekomendasi produk best seller lain?"   
+            ],
+            "responses": [
+               "Berikut produk best seller yang kami rekomendasikan yaitu dari toko HijabId, Blue Mosque, harga Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/9159c099db143e81.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/blue-mosque-680-1.php",
+               "Berikut produk best seller yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Lemon, harga Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/c2a6e0c1b7f010f1.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-lemon-699-1.php",
+               "Berikut produk best seller yang kami rekomendasikan yaitu dari toko HijabId, Voal plain Olive, harga Rp. 85.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/cc8fdb17835b8fe3.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/voal-plain-olive-829-1.php",
+               "Berikut produk best seller yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Peach , harga Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/10e3af738e93f607.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-peach-700-1.php",
+               "Berikut produk best seller yang kami rekomendasikan yaitu dari toko HijabId, Water Color Cream, harga Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/eb894e8ace9fcf54.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/water-color-cream-808-1.php",
+               "Berikut produk best seller yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Blush, harga Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/dfe374397696e354.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-blush-701-1.php",
+               "Berikut produk best seller yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Pearl, harga Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/f7f44b5d0159f6fa.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-pearl-682-1.php"
+            ]
+        },
+        {
+            "tag": "produk_sale",
+            "patterns": [
+                "Apa saja produk sale yang ada di toko HijabId?",
+                "Apa saja rekomendasi produk sale?"
+            ],
+            "responses": [
+               "Produk sale yang kami rekomendasikan dari toko HijabId soldout"
+            ]
+        },
+        {
+            "tag": "produk_hijab_instan",
+            "patterns": [
+                "Apakah ada produk hijab instan yang direkomendasikan?",
+                "Saya mencari hijab instan yang bagus",
+                "Ada merek hijab instan yang bagus?",
+                "Bisakah Anda merekomendasikan merek hijab instan?",
+                "Apa saja produk hijab instan yang ada di toko HijabId?",
+                "Apa saja rekomendasi produk hijab instan?",
+                "Rekomendasi produk hijab instan lainnya?" 
+            ],
+            "responses": [
+                "Tentu! Beberapa merek hijab instan yang direkomendasikan adalah Zoya, Elzatta, dan Wardah. Merek-merek ini dikenal memiliki kualitas yang baik dan beragam desain yang menarik. Kamu bisa mencari produk mereka di toko-toko hijab atau online marketplace terpercaya.",
+                "Anda dapat mencoba merek Dian Pelangi, Rabbani, atau Naelofar. Merek-merek ini juga populer dan memiliki koleksi hijab instan yang berkualitas.",
+                "Saya merekomendasikan merek Sucieta, Nisha Hijab, dan Amazara. Merek-merek ini memiliki desain yang modern dan berkualitas tinggi. Jangan ragu untuk mencoba!",
+                "Berikut produk hijab instan yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Lemon, Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/c2a6e0c1b7f010f1.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-lemon-699-1.php",
+                "Berikut produk hijab instan yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Peach , Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/10e3af738e93f607.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-peach-700-1.php",
+                "Berikut produk hijab instan yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Blush, Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/dfe374397696e354.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-blush-701-1.php",
+                "Berikut produk hijab instan yang kami rekomendasikan yaitu dari toko HijabId, Hannah Hijab Instant Mammadis x hijab.id Pearl, Rp. 195.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/f7f44b5d0159f6fa.jpg dan deskripsi produk juga dapat kamu lihat pada link berikut https://hijab.id/detail-produk/hannah-hijab-instant-mammadis-x-hijabid-pearl-682-1.php"
+            ]
+        },
+        {
+          "tag": "produk_pashmina",
+          "patterns": [
+              "Apa itu pashmina?",
+              "Bagaimana cara menggunakan pashmina?",
+              "Apakah pashmina cocok untuk acara formal?",
+              "Dapatkah Anda merekomendasikan gaya berpakaian dengan pashmina?",
+              "Apa saja produk pashmina yang ada di toko HijabId?",
+              "Apa saja rekomendasi produk pashmina?",
+              "Rekomendasi produk pashmina lainnya?",
+              "Rekomendasi produk pashmina lain?"  
+          ],
+          "responses": [
+              "Pashmina adalah sejenis syal atau selendang yang terbuat dari bahan ringan dan lembut. Biasanya digunakan untuk melengkapi atau mempercantik pakaian.",
+              "Untuk menggunakan pashmina, Anda dapat melilitkannya di leher, menggunakannya sebagai penutup kepala, atau menggantungkannya di bahu. Ada berbagai cara kreatif untuk mengikat pashmina yang dapat menciptakan gaya yang berbeda.",
+              "Ya, pashmina sering kali dianggap cocok untuk acara formal karena memberikan sentuhan elegan dan dapat menambahkan gaya pada pakaian Anda.",
+              "Tentu! Sebagai contoh, Anda dapat mencoba mengenakan pashmina dengan gaun putih yang sederhana untuk menciptakan tampilan yang anggun dan feminin. Atau Anda dapat melilitkannya di leher saat mengenakan blus dan celana untuk tampilan yang lebih kasual namun tetap bergaya.",
+              "Berikut produk pashmina yang kami rekomendasikan yaitu dari toko HijabId, Pashmina Ceruty Lilac, Rp. 71.100, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/3806ca3f3ccc288d.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/pashmina-ceruty-lilac-816-1.php",
+              "Berikut produk pashmina yang kami rekomendasikan yaitu dari toko HijabId, Pashmina Ceruty Mustard, Rp. 71.100, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/8895be1d607b0d7e.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/pashmina-ceruty-mustard-814-1.php",
+              "Berikut produk pashmina yang kami rekomendasikan yaitu dari toko HijabId, Pashmina Ceruty Taro, Rp. 71.100, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/b231d8217bc6fc39.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/pashmina-ceruty-taro-801-1.php",
+              "Berikut produk pashmina yang kami rekomendasikan yaitu dari toko HijabId, Abina Pashmina Blue, Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/839887d266e03fc9.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/abina-pashmina-blue-441-1.php",
+              "Berikut produk pashmina yang kami rekomendasikan yaitu dari toko HijabId, Abina Pashmina Purple, Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/4ce8373dccc205f7.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/abina-pashmina-purple-440-1.php"
+          ]
+         },
+         {
+            "tag": "produk_plain_hijab_squere",
+            "patterns": [
+                "Apa saja produk plain hijab squere yang ada di toko HijabId?",
+                "Apa saja rekomendasi produk plain hijab squere?",
+                "Rekomendasi produk plain hijab squere lainnya?",
+                "Rekomendasi produk plain hijab squere lain?"  
+            ],
+            "responses": [
+               "Berikut produk plain hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Voal Plain White, Rp. 85.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/913a5686961207d3.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/voal-plain-white-850-1.php",
+               "Berikut produk plain hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Paris Premium Olive, Rp. 121.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/5025236af826c9cb.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/paris-premium-olive-767-1.php",
+               "Berikut produk plain hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Voal plain Olive, Rp. 85.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/cc8fdb17835b8fe3.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/voal-plain-olive-829-1.php",
+               "Berikut produk plain hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Paris Premium Pink Coral, Rp. 121.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/2ee150cb3fce6f52.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/paris-premium-pink-coral-765-1.php",
+               "Berikut produk plain hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Voal plain Salmon, Rp. 85.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/90a8d283208cf02f.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/voal-plain-salmon-857-1.php",
+               "Berikut produk plain hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Voal PLain Dark Choco, Rp. 85.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/d8f091f689e1d64f.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/voal-plain-dark-choco-854-1.php"
+            ]
+        },
+        {
+            "tag": "produk_printed_hijab_squere",
+            "patterns": [
+                "Apa saja produk printed hijab squere yang ada di toko HijabId?",
+                "Apa saja rekomendasi produk printed hijab squere?",
+                "Rekomendasi produk printed hijab squere lainnya?"
+            ],
+            "responses": [
+               "Berikut produk printed hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Canola Fuchsia, Rp. 202.500, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/ba17a73fcc67f0a9.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/canola-fuchsia-774-1.php",
+               "Berikut produk printed hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Aya, Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/599c32ebb9322b04.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/aya-535-1.php",
+               "Berikut produk printed hijab squere yang kami rekomendasikan yaitu dari toko HijabId, Blue Mosque, Rp. 225.000, gambar produk dapat dilihat pada link berikut https://hijab.id/tm_images/produk/thumb/9159c099db143e81.jpg dan deskripsi produk juga dapat kamu lihat pada https://hijab.id/detail-produk/blue-mosque-680-1.php"
+            ]
+        },
+        {
+            "tag": "pakaian",
+            "patterns": [
+                "apakah terdapat produk pakaian juga?",
+                "apakah tersedia dress?",
+                "ada berapa macam produk pakaian?",
+                "saya sedang mencari produk pakaian untuk sehari-hari",
+                "bisa rekomendasikan dress yang bagus",
+                "produk tunik ada tidak?",
+                "apakah ada outer?"
+
+                
+            ],
+            "responses": [
+               "ya di toko kami terdapat banyak produk pakaian diantaranya 1. Dress 2.Homewear atau pakaian sehari-hari 3. pakaian sets yaitu atasan dan bawahan dan yang terakhir 4.produk atasan",
+               "terdapat berbagai macam dress dengan beberapa model yang unik yang dapat dipilih sesuai dengan selera anda",
+               "ada 4 macam produk pakaian yang ada di toko kami",
+               "tentu saja, pakaian sehari-hari atau homewaer tersedia dengan berbagai macam model bisa kunjungi website: https://hijab.id/kategori/apparels/homewear-1.php ",
+               "ada banyak pilihan dress hijab salah satunya gingham dress, dira long tunic pink sampai zeline plisket dress ",
+               "tersedia juga tunik disini dengan berbagai macam warna misalnya hitam,pink,cream ",
+               "terdapat produk zea long outer berikut link produknya: https://hijab.id/detail-produk/zea-long-outer-668-1.php "
+
+            ]
+        }
+    ]
+}
+

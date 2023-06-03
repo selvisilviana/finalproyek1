@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>MuslimBot</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href={{ url_for('static', filename='/css/bootstrap.min.css') }} type="text/css">
+    <link rel="stylesheet" href={{ url_for('static', filename='/css/client_side.css') }}  type="text/css">
+    
+    <!-- JavaScript -->
+    <script src={{ url_for('static', filename='/js/jquery_3.6.0.min.js') }} ></script>
+    <script src={{ url_for('static', filename='/js/bootstrap_3.4.1.min.js') }} ></script>
+
+    <!-- Icon -->
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/logo.png') }}" />
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+
+  <body id="halamanku" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color:#cc8800;>
+      <div class="container">
+        <!-- Logo -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#halamanku" style="color: #ffb31a;">Insighfull Muslim Bot</a>
+        </div>
+
+        <!-- Daftar Halaman -->
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Info</a></li>
+            <li><a href="#aplikasi">Aplikasi</a></li>
+            <li><a href="#team">Anggota</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Landing Page -->
+    <div id="home" class="container-fluid" style="
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background: url('{{ url_for('static', filename='images/benner2.jpg') }}');
+    ">
+      <br>
+      <br>
+      <br>
+      <br><br><br>
+      <div class="row">
+          <div>
+            <!-- Welcome -->
+            <h2 style="color: #ffaa00; font-size: 70px;">Selamat Datang Di</h2>
+            <h3 style="color: #ffaa00; font-size: 30px;"><b>Insighfull Muslim Bot</b></h3><br>
+            <p style="text-align: justify;text-justify: inter-word; color: #e69900; font-size: 20px;">
+              tips berpakaian muslim terupdate & fashionable
+            </p>
+            <br>
+    
+            <!-- Tombol show -->
+            <nav id="navgo" class="navbar-show-more" style="z-index: 0;">
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="btn btn-default btn-lg" href="#about" style="background-color:#996600; color:#fff; border: none; outline:none">Show More</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+      </div>
+    </div>
+
+    <!-- Bagian Halaman (Informasi) -->
+    <div id="about" class="container-fluid">
+      <div class="row">
+        <div class="col-sm-6">
+          <br>
+          <!-- Gambar Deskripsi Fashion Muslim -->
+          <img src={{ url_for('static', filename='/images/benner.jpg') }} width="500" height="550" text-align="center"></img>
+        </div>
+
+        <div class="col-sm-6">
+          <!-- Deskripsi Aplikasi -->
+                  <h2>DESKRIPSI</h2><br>
+          <h4>Insighfull Muslim Bot</h4>
+          <p style="text-align: justify;text-justify: inter-word;">
+            InsightfulMuslimBot hadir untuk memberikan bantuan dan panduan seputar cara berpakaian Muslim, khususnya untuk perempuan. Kami dapat memberikan pemahaman tentang prinsip-prinsip berpakaian dalam Islam, serta memberikan saran dan tips tentang cara memadukan busana, hijab, dan aksesoris lainnya secara sesuai dengan ajaran Islam.</p>
+          <p>
+              Kami juga dapat memberikan rekomendasi produk hijab yang relevan, termasuk harga dan gambar, untuk memenuhi kebutuhan pengguna. Meskipun kami tidak dapat menyediakan daftar produk secara real-time karena keterbatasan akses ke informasi terkini, kami dapat memberikan panduan umum tentang merek dan jenis-jenis hijab yang tersedia di pasaran. Namun, penting untuk diingat bahwa preferensi dan kebutuhan setiap individu dapat bervariasi, dan kami mendorong pengguna untuk mempertimbangkan nilai-nilai Islam, kenyamanan, dan gaya pribadi saat memilih busana dan aksesoris.
+          </p>
+          <br>
+
+          <!-- Tombol Mulai -->
+          <nav id="navgo" class="navbar" style="background-color:#ffffff;z-index: 0;">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="btn btn-default btn-lg" href="https://hijab.id/" style="background-color:#996600; color: #fff !important;">Info Produk</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div><br><br>
+    
+      <div id="aplikasi" class="row">      
+        <div class="col-sm-12">
+          <!-- Deskripsi Aplikasi -->
+          <h3>Aplikasi</h3>
+          <p style="text-align: justify;text-justify: inter-word;">
+            Perlu diingat bahwa InsightfulMuslimBot adalah asisten AI berbasis teks, sehingga kami tidak dapat menyediakan gambar secara langsung. Namun, kami dapat memberikan deskripsi yang rinci dan mengarahkan pengguna ke sumber-sumber yang relevan atau platform e-commerce yang menyediakan gambar dan informasi lebih lanjut tentang produk-produk hijab.
+          </p>
+          <p>
+            Kami berharap InsightfulMuslimBot dapat membantu pengguna dalam memahami prinsip-prinsip berpakaian dalam Islam, memberikan saran tentang memadukan busana, hijab, dan aksesoris, serta memberikan panduan dalam memilih produk hijab yang sesuai dengan kebutuhan dan preferensi individu. 
+          </p>
+          <br>
+
+          <!-- Tombol Mulai -->
+          <nav id="navgo" class="navbar" style="background-color:#ffffff;z-index: 0;">
+            <ul class="nav nav-pills">
+              <li class="nav-item">
+                <a class="btn btn-default btn-lg" href="/chatbot" style="background-color:#996600; color: #fff !important;">Aplikasi</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div><br>
+    </div>
+
+    <!-- Bagian Halaman (Anggota Kelompok) -->
+    <div id="team" class="container-fluid text-center">
+        <br>
+        <h2>Anggota Kelompok</h2>
+        <h4>Insight 4</h4>
+        <br>
+        <div class="row slideanim">
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/7.png') }}  width="200" height="200">
+                <h4>Adi Gunawan</h4>
+                <p>Universitas Catur Insan Cendekia</p>
+            </div>
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/8.png') }}  width="200" height="200">
+                <h4>Selvi Silviana</h4>
+                <p>STMIK IKMI CIREBON</p>
+            </div>
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/9.png') }}  width="200" height="200">
+                <h4>Ziam Agista Mutmainah</h4>
+                <p>Universitas Pendidikan Indonesia</p>
+            </div>
+            <div class="col-sm-6">
+                <img src={{ url_for('static', filename='/images/10.png') }}  width="200" height="200">
+                <h4>Yoga Adiansah</h4>
+                <p>STIMIK bandung</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center">
+        <a href="#halamanku" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>Insighfull Muslim Bot<br> Insight 4</p>
+        <span class="copyright">© 2023 ZAS All Rights Reserved</span> </div>
+    </footer>
+
+    <!-- JavaScript untuk Animasi Scroll dan Prediksi Model -->
+    <script  src={{ url_for('static', filename='/js/client_side.js') }}></script>
+    <!-- Feather Icons -->
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
